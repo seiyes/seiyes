@@ -8,10 +8,7 @@
 seiyes/seiyes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
-요즈음 공상평 솔루션화에서 어플리케이션 설계를 리딩 하면서 SaaS 솔루션을 만들 때 기존 SI에서 만들었던 어플리케이션과 어떻게 다른지 많은 질문을 받는다. 따라서 이번 TEC 기고에는 SaaS 형 어플리케이션과 SI 형 어플리케이션 구축 시 고려해야 할 점을 몇가지 사례 중심으로 이야기를 해 보고자 한다.
-SaaS 형 어플리케이션과 SI형 어플리케이션의 가장 큰 특징은 변경에 대한 유연성이다. SaaS형 어플리케이션 또한 솔루션이므로 여러 사이트의 요구사항을 가능하면 수정없이 어플리케이션에 반영하여 서비스를 해야 하므로 변경에 유연한 시스템을 얼마나 잘 설계하느냐가 가장 중요한 부분이다. 그렇다면 어떻게 설계를 해야 변경에 유연한 설계인지를 몇 가지 사례를 기반으로 설명하고자 한다.
-
+<구독형 
 1.	유연한 데이터 
 2.	소스 변경 없는 특화 로직 반영
 3.	서로 다른 화면 항목 설계
