@@ -13,7 +13,7 @@ ddd : 비즈니스도메인(entity)모델을 기반으로 서비스 도출
       pos:entity중심비즈니스에 서비스도출용이, 기존시스템데이터기반으로 서비스용이
       dis:현업과 소통어려움, 프로세스와연관된서비스도출x
       
-      ubiquti
+      ubiqutis boundedcontext sharedKernel
       
       
 Fdd : 비즈닛 업무기능분해도를 이용하여 서비스 도출 
