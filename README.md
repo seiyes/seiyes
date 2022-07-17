@@ -35,4 +35,20 @@ msa 서비스분리기중
 최적의 기술
 조직
 
+머신러닝:의사결정을위한 패턴을 기계가 스스로학습 
+  . 지도학습 문제와답(분류classification업무분류와 회귀regression 주가그래프)
+  . 비지도학습 답안줌 클러스터링 clustering, 문서분류
+  . 강화학습 보상이높은..알파고,게임로봅
+  
 
+
+딥러닝: 인공신경망기반,비정형데이터로부터 특징추출및판단까지 기계가수행 feature를 기계가 판단.
+eda :탐색적데이터분석
+featuring engineering 선처리
+  . label 인코딩 : 알파벳 오더
+  . one-hot 인코딩 : 해당컬럼에만 1 나머지 0 
+  
+  classification알고리즘
+   . logistic regression/decisionTree/supportVecotorMachine/NearestNeighbor/neuralNetwork/ensemble(GBM/GXBoost)
+   
+  
