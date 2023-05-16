@@ -850,10 +850,29 @@ Message Queue
  Batch/ETL 즉시성x
  Cache 변경빈번x
  Api연계 대량조회x
+ ##########
+ 결합도
+ Data
+ Stamp
+ Control
+ Common
+ Content
  
+ 응집도 
+ 기능적 
+ 시퀀셜
+ communication
+ 프로시절
+ 템프럴
+ 로지컬
+ coincidental cohesion
  
+ 동시성문제, lock select for update수행
  
- 
+ 1 asis대비화면개수는 큰 변화가 없는데 pbiop가많이 증가하고 시퀀스다이ㅓ그램님작성이 많아 불필요한 op도출가능성ㅇ ㅣㅇㅆ음
+ 2 aisse대비 화면갯수는크게 증가하였는데 pbi.op는 asisi대비 큰 변화가 없으므로 pbi.op누락가능성
+ 3 asis대비 엔터티 개숫비슷하나 aissi호출쿼리 개수대비ebi.op개숫가 많이 작고 미호출 op도 없으므로 ebi누락이나 ebi.op누락으로 pbi.op주요로직 누락가능성있음
+ 3 asis 타업무요청쿼리 개숫대비 ibi호출 많이 작고 대냉/외 인터페이스 개수대비 bnd_si.op호출갯수가 많이 작으므로 pbi.op
  
  
  
