@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class Solution1 {
 	
 	//test git version2
-	
+	//test git version3
 	
 	
 	public int solution(String[] aTR) {
